@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.gray.cloud</groupId>
-  <artifactId>gray-cloud-framework</artifactId>
+  <groupId>com.gray.cloud.framework</groupId>
+  <artifactId>gray-swagger</artifactId>
   <versioning>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181205022715</lastUpdated>
+    <lastUpdated>20181205022913</lastUpdated>
   </versioning>
 </metadata>

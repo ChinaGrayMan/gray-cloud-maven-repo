@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.gray.cloud</groupId>
-	<artifactId>gray-cloud-framework</artifactId>
+	<groupId>com.gray.cloud.framework</groupId>
+	<artifactId>gray-swagger</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>gray-cloud-framework</name>
-	<description>GrayMan .Inc framework</description>
+	<name>gray-cloud-framework-swagger</name>
 
 	<parent>
 		<groupId>com.gray.cloud</groupId>
 		<artifactId>workspace</artifactId>
 		<version>1.0.0-RELEASE</version>
-		<relativePath>../../GrayMan-Cloud-FrameWork/pom.xml</relativePath>
 	</parent>
 
 	<dependencies>
+
+		<!-- Swagger -->
 		<dependency>
-			<groupId>com.gray.cloud.framework</groupId>
-			<artifactId>gray-swagger</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${swagger.version}</version>
 		</dependency>
+
+		<!-- Swagger UI-->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>${swagger.version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
